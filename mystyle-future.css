@@ -28,6 +28,7 @@ header h1 {
     font-size: 2.5em;
 }
 
+
 header h3 {
     font-family: "Zeyada", cursive;
     font-size: 1.2em;
@@ -88,4 +89,30 @@ footer {
 footer p {
     font-family: "Rajdhani", sans-serif;
     margin: 0;
+}
+
+.career-section {
+    background-color: #ffffff; /* สีพื้นหลังกล่อง */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    width: 100%; /* ให้กล่องภาพกว้าง 100% */
+    height: 200px; /* กำหนดความสูงของกล่อง */
+    overflow: hidden; /* ป้องกันไม่ให้รูปภาพเกินขอบ */
+    border-radius: 8px; /* มุมโค้ง */
+    margin-bottom: 10px; /* ระยะห่างระหว่างกล่องรูปกับข้อความ */
+    display: flex; /* ใช้ Flexbox เพื่อจัดแนว */
+    justify-content: center; /* จัดแนวกลาง */
+    align-items: center; /* จัดแนวกลางในแนวตั้ง */
+}
+
+.future-image {
+    width: auto; /* กำหนดความกว้างอัตโนมัติ */
+    height: 100%; /* ทำให้สูงเท่ากับกล่อง */
+    object-fit: contain; /* ปรับให้รูปภาพอยู่ในกล่องพอดี */
+    border-radius: 8px; /* มุมโค้งสำหรับรูปภาพ */
 }
